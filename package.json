@@ -1,9 +1,17 @@
 {
   "name": "messy-blog-app",
   "version": "1.0.0",
-  "main": "index.js", 
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "health": "node -e \"require('./index'); console.log('ok')\""
+  },
   "dependencies": {
     "express": "^4.18.2",
-    "body-parser": "^1.20.2"
+    "node-cache": "^5.1.2",
+    "winston": "^3.9.0",
+    "express-winston": "^4.2.0",
+    "express-rate-limit": "^6.8.0",
+    "morgan": "^1.10.0"
   }
 }
