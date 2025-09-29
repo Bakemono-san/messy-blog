@@ -1,7 +1,7 @@
 {
   "name": "messy-blog-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.js", 
   "dependencies": {
     "express": "^4.18.2",
     "body-parser": "^1.20.2"
